@@ -41,15 +41,19 @@ In Deliverable 2, the greatest obstacle was ensuring that the Excel commands wer
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
+
 Based on the depiction provided by the chart, we can acknowledge that most projects launch in the middle of the year, peaking in the Summer around May to July. This trend is evident with Successful and Failed Outcomes as much of their data falls on those Summer months. 
 This trend is not as evident with Canceled Outcomes, as it appears that Launch Date is not very indicative of whether a theater project will be canceled. 
 
 - What can you conclude about the Outcomes based on Goals?
+
 According to the data, over seventy percent of successful theater outcomes are found in the lower goal ranges. Generally, the greater the  monetary goal, the more likely the project is to fail. Of course, this is not always the case, as some projects succeed despite having large goals. It is worth noting that some expensive and successful projects have a greater number of financial backers. This may help explain the trend reversal that occurs around 30000. 
 Nonetheless, it is clear that the Percentage Successful reciprocates the Percentage Failed, as they maintain an opposite relationship. On the other hand, Percentage Canceled does not seem to show a clear relationship between goal and outcome. It is possible that a lack of donors/backers is more related to that issue. 
 
 - What are some limitations of this dataset?
+
 The dataset that we are using for analysis is actually a theater subset of the Kickstarter_Challenge data, and therefore it is arguably a smaller sample size. As such, the analysis may not accurately convey real world relationships nor those relationships that would be present in the original dataset. Furthermore, the variables chosen to be analyzed are also a limiting factor - as there are many variables to consider and we have decidedly cut out a lot of data to analyze very specific parameters. For instance, it would have been beneficial to look at the number of financial backers in this analysis. 
 
 - What are some other possible tables and/or graphs that we could create?
+
 It would be relevant to this analysis to include the number of backers. Along those lines, a table and/or graph that shows the relationship between Theater Outcomes and Number of Backers would be appropriate. It would also be appropriate to analyze the country of origin, as that gives insight to the culture and market that will sustain a theater project. Another table and/or graph that depicts the relationship between country and theater outcome would be helpful as well. 
