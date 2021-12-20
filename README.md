@@ -1,4 +1,4 @@
-# Kickstarting with Excel
+# Kickstarter Analysis with Excel
 
 ## Overview of Project
 In this scenario, we have been following the prospective client, Louise, as she attempts to make a decision on her kickstarter campaign based off of data that is available. This data is multifaceted, showing the monetary values associated with projects, whether successful or not. Now Louise would like to know how theater project outcomes are correlated with launch dates and funding goals. Utilizing the data at hand, we will analyze and answer her inquiry to the best of our abilities. 
