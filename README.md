@@ -12,19 +12,28 @@ As mentioned previously, we wanted to present an analysis that shows the relatio
 ### Analysis of Outcomes Based on Launch Date
 We changed the timestamps in the original dataset to a recognizable format and used Excel capabilites to filter the data based on launch date. To execute this, we made a pivot table so as to efficiently isolate and analyze the different variables in the dataset. We then grouped the dates into months of the year, so that the pivot table showed the number of canceled, failed, and successful outcomes relative to each month. Furthermore, we put the numbers of each outcome column in descending order to pave the way for a nice depiction of the data. As such, we then created a line chart that showed "Theater Outcomes Based on Launch Date."
 
+![Theater_Outcomes_vs_Launch_Data](https://github.com/JV348/kickstarter-analysis/blob/c63905168076e5f2373dfeca756d910afca16370/Resources/Theater_Outcomes_vs_Launch_Data.png)
+
+
+![Theater_Outcomes_vs_Launch](https://github.com/JV348/kickstarter-analysis/blob/c63905168076e5f2373dfeca756d910afca16370/Resources/Theater_Outcomes_vs_Launch.png)
+
 Derived conclusions in Results 
 
 
 ### Analysis of Outcomes Based on Goals
 After analyzing the previous data trend, we shifted over to the relationship between theater project outcomes and their monetary goal. We created a new Excel sheet and established twelve dollar-amount goal ranges from less than 1000 to greater than 50000. Afterwards, we created columns for the number of failed, canceled, and successful outcomes followed by their respective percentage columns. This in turn paved the way for the COUNTIFS() function. We used Excel commands in this function to filter the Kickstarter_Challenge data for a number output on a specific type of outcome within a goal range. 
 
+![Outcomes_vs_Goals_Data](https://github.com/JV348/kickstarter-analysis/blob/c63905168076e5f2373dfeca756d910afca16370/Resources/Outcomes_vs_Goals_Data.png)
+
 Once we had the numbers of each outcome for each goal range, we used simple math functions to add the Total Projects and then found the percentages of each outcome type in each goal range. This table of data then allowed us to create a line chart depicting "Outcomes Based on Goal."
+
+![Outcomes_vs_Goals](https://github.com/JV348/kickstarter-analysis/blob/c63905168076e5f2373dfeca756d910afca16370/Resources/Outcomes_vs_Goals.png)
 
 Derived conclusion in Results
  
 
 ### Challenges and Difficulties Encountered
-In Deliverable 1, the first obstacle was the Unix Epoch timestamp. In order to present the launch dates, the timestamp in the dataset needed to be converted. To do this, online assistance was used, and the timestamp listed for each project was converted into a regular date in a new column. The YEAR() function was then used to extract the date from the new "Date Created Conversion" column. Only then could we  move foward with the analysis and chart. 
+In Deliverable 1, the first obstacle was the Epoch timestamp. In order to present the launch dates, the timestamp in the dataset needed to be converted. To do this, online assistance was used, and the timestamp listed for each project was converted into a regular date in a new column. The YEAR() function was then used to extract the date from the new "Date Created Conversion" column. Only then could we move foward with the analysis and chart. 
 
 In Deliverable 2, the greatest obstacle was ensuring that the Excel commands were typed correctly in the COUNTIFS() function. A considerable amount of time was lost backtracking, dictating rules, and monitoring for further errors. In short, Google was used to figure out some minor things about Excel, like the way we are supposed to type greater than or less than. 
 
